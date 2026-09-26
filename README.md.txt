@@ -2,12 +2,6 @@
 
 An interactive Power BI dashboard designed to analyze sales performance, revenue, orders, products, and business trends through data visualization and interactive reporting.
 
-## 🎯 Project Overview
-
-This project demonstrates the development of an end-to-end Power BI reporting solution, from data preparation and transformation to data modeling, DAX calculations, and interactive dashboard design.
-
-The goal is to transform raw sales data into meaningful business information that can support performance monitoring and decision-making.
-
 ## 📌 Business Questions
 
 The dashboard was designed to answer questions such as:
@@ -18,14 +12,6 @@ The dashboard was designed to answer questions such as:
 * Which categories contribute most to overall sales?
 * What are the main sales trends and patterns?
 * How does performance vary across different dimensions of the business?
-
-## 📈 Dashboard Preview
-
-### Sales & Revenue Overview
-
-<!-- Add your dashboard screenshot below -->
-
-![Sales & Revenue Dashboard](screenshots/dashboard-overview.png)
 
 ## 🔎 Key Insights
 
@@ -97,25 +83,6 @@ sales-revenue-powerbi/
 ├── README.md
 │
 └── screenshots/
-    └── dashboard-overview.png
-```
-
-### 📊 Power BI Report
-
-The `.pbix` file contains the complete Power BI report, including the data model, Power Query transformations, DAX calculations, and dashboard pages.
-
-## 💡 Skills Demonstrated
-
-* Business Intelligence
-* Data Analysis
-* Data Visualization
-* Power BI
-* Power Query
-* DAX
-* Data Modeling
-* KPI Development
-* Dashboard Design
-* Analytical Thinking
 
 ## 👤 About
 
