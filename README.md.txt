@@ -25,7 +25,7 @@ The dashboard was designed to answer questions such as:
 
 <!-- Add your dashboard screenshot below -->
 
-![Sales & Revenue Dashboard](screenshots/dashboard-overview.png)
+![Sales & Revenue Intelligence Dashboard](screenshots/dashboard-overview.png)
 
 ## 🔎 Key Insights
 
