@@ -1,0 +1,180 @@
+# 🧮 DAX Measures Documentation
+
+This document provides an overview of the DAX measures developed for the
+**Sales & Revenue Analysis — Power BI** project.
+
+The measures support revenue analysis, profitability, sales performance,
+customer analysis, order analysis, returns, targets, and time-based analytics.
+
+---
+
+## 📊 Revenue & Sales Measures
+
+| Measure | Purpose |
+|---|---|
+| **Total Revenue** | Measures total revenue generated. |
+| **YTD Revenue** | Measures revenue generated year-to-date. |
+| **10 Days Rolling Revenue** | Tracks revenue over a rolling 10-day period. |
+| **90 Days Rolling Revenue** | Tracks revenue over a rolling 90-day period. |
+| **Target Revenue** | Represents the revenue target. |
+| **Revenue Target Gap** | Measures the difference between actual revenue and the revenue target. |
+| **Bike Sales** | Measures sales associated with bikes. |
+| **Average Retail Price** | Calculates the average retail price. |
+
+---
+
+## 💰 Profitability Measures
+
+| Measure | Purpose |
+|---|---|
+| **Total Profit** | Measures total profit generated. |
+| **Total Cost** | Measures total cost. |
+| **Profit Target** | Represents the defined profit target. |
+| **Profit Target Gap** | Measures the difference between actual profit and the profit target. |
+
+---
+
+## 📦 Order Measures
+
+| Measure | Purpose |
+|---|---|
+| **Total Orders** | Measures the total number of orders. |
+| **All Orders** | Represents the complete order population used for analysis. |
+| **% Of All Orders** | Calculates the proportion of orders relative to all orders. |
+| **Weekend Orders** | Measures orders placed during weekends. |
+| **Order Target** | Represents the target number of orders. |
+| **Bulk Order** | Identifies or measures bulk orders. |
+| **High Ticket Orders** | Identifies or measures high-value orders. |
+
+---
+
+## 🔄 Returns Measures
+
+| Measure | Purpose |
+|---|---|
+| **Total Returns** | Measures the total number/quantity of returns. |
+| **All Returns** | Represents the complete return population used for analysis. |
+| **% Of All Returns** | Calculates the proportion of returns relative to all returns. |
+| **Quantity Returned** | Measures the quantity of products returned. |
+| **Return Rate** | Measures the rate of returned products/orders. |
+| **Bike Returns** | Measures returns associated with bikes. |
+| **Bike Return Rate** | Measures the return rate associated with bikes. |
+
+---
+
+## 👥 Customer Measures
+
+| Measure | Purpose |
+|---|---|
+| **Total Costumars** | Measures the total number of customers. |
+| **Average Revenu Per Customer** | Calculates the average revenue generated per customer. |
+
+> **Note:** Measure names are documented according to the names used in
+> the Power BI model.
+
+---
+
+## 📈 Target & Performance Analysis
+
+The report includes dedicated measures for comparing actual performance
+against predefined business targets.
+
+These include:
+
+- **Target Revenue**
+- **Revenue Target Gap**
+- **Profit Target**
+- **Profit Target Gap**
+- **Order Target**
+
+These measures allow the dashboard to compare actual performance with
+planned or target performance.
+
+---
+
+## ⏱️ Time-Based Analysis
+
+The project includes measures designed for time-based analysis:
+
+- **YTD Revenue**
+- **10 Days Rolling Revenue**
+- **90 Days Rolling Revenue**
+- **Weekend Orders**
+
+These calculations support the analysis of short-term trends,
+year-to-date performance, and recurring sales patterns.
+
+---
+
+## 🧠 DAX Concepts Demonstrated
+
+The measure set demonstrates practical use of DAX for:
+
+- KPI calculations
+- Target vs. actual analysis
+- Percentage calculations
+- Time intelligence
+- Year-to-date analysis
+- Rolling-period analysis
+- Ratio calculations
+- Customer-level analysis
+- Product-level analysis
+- Return-rate analysis
+- Conditional business logic
+- Performance analysis
+
+---
+
+## 🏗️ Measure Organization
+
+The project uses a dedicated **Measure Table** to organize DAX measures
+separately from the underlying data tables.
+
+This approach helps:
+
+- Keep measures organized
+- Make the data model easier to navigate
+- Separate analytical logic from source columns
+- Improve maintainability of the Power BI model
+- Make measures easier to locate when developing reports
+
+---
+
+## 📋 Measure Categories
+
+```text
+DAX Measures
+│
+├── Revenue & Sales
+│   ├── Total Revenue
+│   ├── YTD Revenue
+│   ├── Rolling Revenue
+│   ├── Target Revenue
+│   └── Revenue Target Gap
+│
+├── Profitability
+│   ├── Total Profit
+│   ├── Total Cost
+│   ├── Profit Target
+│   └── Profit Target Gap
+│
+├── Orders
+│   ├── Total Orders
+│   ├── All Orders
+│   ├── % Of All Orders
+│   ├── Weekend Orders
+│   ├── Bulk Order
+│   └── High Ticket Orders
+│
+├── Returns
+│   ├── Total Returns
+│   ├── All Returns
+│   ├── % Of All Returns
+│   ├── Quantity Returned
+│   ├── Return Rate
+│   ├── Bike Returns
+│   └── Bike Return Rate
+│
+└── Customer Analysis
+    ├── Total Costumars
+    └── Average Revenu Per Customer
