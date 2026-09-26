@@ -13,6 +13,17 @@ The dashboard was designed to answer questions such as:
 * What are the main sales trends and patterns?
 * How does performance vary across different dimensions of the business?
 
+<<<<<<< HEAD
+=======
+## 📈 Dashboard Preview
+
+### Sales & Revenue Overview
+
+<!-- Add your dashboard screenshot below -->
+
+![Sales & Revenue Intelligence dashboard](screenshots/dashboard-overview.png)
+
+>>>>>>> dc8c5e993db4477d45d8c4d6d8e4a51ea2c62031
 ## 🔎 Key Insights
 
 The dashboard provides an interactive view of:
